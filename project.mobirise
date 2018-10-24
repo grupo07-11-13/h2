@@ -61,7 +61,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 199,
+    "uniqCompNum": 202,
     "versionPublish": "4.8.3",
     "screenshot": "screenshot.png"
   },
@@ -3968,7 +3968,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#f7c530\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black\" href=\"page2.html\" data-app-placeholder=\"Type Text\">About us</a>\n                    <a class=\"btn btn-black\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">Repository of Information</a> <a class=\"btn btn-black\" href=\"index.html\" data-app-placeholder=\"Type Text\">H1</a> <a class=\"btn btn-black\" href=\"page4.html\" data-app-placeholder=\"Type Text\">H2</a> <a class=\"btn btn-black\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">H3</a> <a class=\"btn btn-black\" href=\"page3.html\" data-app-placeholder=\"Type Text\">Bibliography</a> <a class=\"btn btn-black\" href=\"page5.html\" data-app-placeholder=\"Type Text\">State of the Art</a> <a class=\"btn btn-black\" href=\"page5.html\" data-app-placeholder=\"Type Text\">Conceptual Map</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#f7c530\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black\" href=\"page2.html\" data-app-placeholder=\"Type Text\">About us</a>\n                    <a class=\"btn btn-black\" href=\"page6.html\" data-app-placeholder=\"Type Text\">Repository of Information</a> <a class=\"btn btn-black\" href=\"index.html\" data-app-placeholder=\"Type Text\">H1</a> <a class=\"btn btn-black\" href=\"page4.html\" data-app-placeholder=\"Type Text\">H2</a> <a class=\"btn btn-black\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">H3</a> <a class=\"btn btn-black\" href=\"page3.html\" data-app-placeholder=\"Type Text\">Bibliography</a> <a class=\"btn btn-black\" href=\"page5.html\" data-app-placeholder=\"Type Text\">State of the Art</a> <a class=\"btn btn-black\" href=\"page5.html\" data-app-placeholder=\"Type Text\">Conceptual Map</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r5A1tZucty",
           "_anchor": "content8-1v",
           "_protectedParams": [],
@@ -7585,6 +7585,82 @@
           "_once": "menu",
           "_params": {},
           "_anchor": "menu1-57"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            "B": {
+              "color": "#f9f9f9"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>\n                    Repositorio de Información</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r7mMRGwUxD",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-5j"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ul": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
+                    "list-style": "none",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "0px",
+                      "margin-top": "-10px",
+                      "padding-top": "3px",
+                      "content": "''",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "20px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "25px",
+                      "height": "25px",
+                      "border-radius": "50%",
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
+                        "border-radius": "0"
+                      },
+                      "& when (@mark)": {
+                        "content": "'✓'"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "_name": "content12",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#f7c530\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" condition=\"stylizedCounters\" checked>\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\">Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\" selected>Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li><b>http://www.revistasbolivianas.org.bo/pdf/ucs/n13/n13_a02.pdf: </b>Parasitosis.</li>\n                    <li><b>https://jamanetwork.com/journals/jamapediatrics/fullarticle/2596270: </b>Pinzamiento del cordón umbilical.</li><li><b>http://www.uu.se/en/news/news-document/ id=8054&amp;typ=artikel&amp;area=2&amp;lang=en: </b>Pinzamiento del cordón umbilical.</li>\n                    <li><b>https://vital.rpp.pe/expertos/la-diferencia-entre-anemia-y-deficiencia-de-hierro-noticia-1138685: </b>Columna del ginecólogo Enrique Flint sobre la diferencia entre anemia y deficiencia de hierro.</li><li><b>http://www.regioncajamarca.gob.pe/sites/default/files/documentos/fed/Plan%20Multisectorial%20contra%20la%20Anemia%20DS%20068-2018-PCM.pdf: </b>Plan multisectorial de lucha contra la anemia. Aprobado en el año 2018.</li><li><b>http://repositorio.uwiener.edu.pe/handle/123456789/1710:</b> Relación entre desarrollo psicomotor y anemia.</li><li><b>https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-el-plan-multisectorial-de-lucha-decreto-supremo-n-068-2018-pcm-1665488-3/: </b>Decreto supremo publicado en El Peruano sobre el Plan multisectorial de lucha contra la anemia.</li><li><b>https://www.youtube.com/watch?v=2goHRtmPmHM: </b>Consecuencias graves de la anemia en los niños.</li><li><b>https://www.youtube.com/watch?v=3EWTSGucPHo: </b>Entrevista a ministra Iliana la Rosa (Midis) sobre el Plan multisectorial de lucha contra la anemia.</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r7mOAOiyuR",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content12-5l"
         }
       ]
     }
